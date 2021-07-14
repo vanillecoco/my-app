@@ -1,0 +1,10 @@
+.Headers_nav ul{
+    list-style: none;
+    
+ }
+ .Headers_nav ul li{
+     float: left;
+  }
+ .Headers_nav li a{
+     text-decoration: none;
+  }

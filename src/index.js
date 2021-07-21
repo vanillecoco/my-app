@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Headers from './Components/Header/header';
 import Nav from './Components/Nav/nav';
+import Function1 from './Components/Funtions/funtions1';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <Function1 />
     <Headers />
     <Nav />
     <App />

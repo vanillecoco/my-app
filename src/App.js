@@ -1,7 +1,8 @@
 import logo from './dogicon.png';
 import './App.css';
 import './Components/Header/header.css';
-import './Components/Nav/nav.css'
+import './Components/Nav/nav.css';
+import Users from './Components/User/Users';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         Hello!
         
+        <Users />
       </header>
     </div>
   );

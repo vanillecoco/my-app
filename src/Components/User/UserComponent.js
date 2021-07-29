@@ -1,8 +1,10 @@
 import React from 'react';
 
-function UserComponent({data}){
-  return {
-    {data.length > 0?(
+function UserComponent({ data }){
+    
+  return (
+    <div className="App_d">
+    { data.length > 0 ?(
         data.map((user) => {
             return(
                 <div key ={user.id} className="card custom-card" style={{width: '18rem', marginBottom: '20px'}}>
@@ -22,8 +24,8 @@ function UserComponent({data}){
 
     )}
 
-
-  };
+    </div>
+  );
 }
 
 export default UserComponent;
